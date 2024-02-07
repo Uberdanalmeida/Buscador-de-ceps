@@ -30,7 +30,7 @@ function App() {
         <h1 className='titulo'>Buscador de CEP</h1>
 
         <div className='input'>
-          <input type="text" name="" id="" placeholder='digite seu cep' value={count}
+          <input type="text" name="" id="" placeholder='digite um cep' value={count}
           onChange={(e) => setCount(e.target.value)} />
 
           <button className='botao' onClick={teste}> 🔎</button>
