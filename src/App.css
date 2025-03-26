@@ -10,7 +10,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-image: url(cidades.jpg);
+  background-image: url(imagem/cidades.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -88,7 +88,7 @@
   .container {
     display: flex;
     text-align: center;
-    background-image: url(manha.png);
+    background-image: url(imagem/manha.png);
   }
 
   .input {
