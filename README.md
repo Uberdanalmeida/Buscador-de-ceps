@@ -1,4 +1,4 @@
-![Buscador de CEP](../imagem/buscaCep.png)
+![Buscador de CEP](imagem/buscaCep.png)
 
 # Buscador de CEP
 
