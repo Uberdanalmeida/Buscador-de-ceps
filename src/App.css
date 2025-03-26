@@ -22,8 +22,12 @@
 }
 
 .input {
-  background-color: black;
+  background-color: white;
+  border: 1px solid black;
   padding: 15px;
+  width: 380px;
+  align-items: center;
+  justify-content: space-around;
   margin: 30px 0;
   display: flex;
   border-radius: 30px;
@@ -33,16 +37,16 @@
   background-color: transparent;
   border: 0;
   font-size: 20px;
-  color: white;
+  color: black;
   outline: none;
   margin-right: 8px;
 }
 
 .botao {
-  background-color: transparent;
+  font-weight: 600;
   border: 0;
   display: flex;
-
+  align-items: center;
   cursor: pointer;
 }
 
