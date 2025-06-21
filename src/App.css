@@ -43,6 +43,9 @@
 }
 
 .botao {
+  border: none;
+  outline: none;
+  background-color: transparent;
   font-weight: 600;
   display: flex;
   align-items: center;
@@ -66,6 +69,11 @@
 .main span {
   margin-bottom: 10px;
   font-weight: bolder;
+}
+
+.icon {
+  border: none;
+  background-color: transparent;
 }
 
 @keyframes cidades {

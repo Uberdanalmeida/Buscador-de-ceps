@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import api from './server/api'
+import { BsSearch } from "react-icons/bs";
 
 function App() {
   const [count, setCount] = useState('')
@@ -33,7 +34,7 @@ function App() {
           <input type="text" name="" id="" placeholder='DIGITE UM CEP' value={count}
           onChange={(e) => setCount(e.target.value)} />
 
-          <button className='botao' onClick={teste}>🔍</button>
+          <button className='botao' onClick={teste}><BsSearch size={25} className='icon'/></button>
         </div>
 
         {Object.keys(cep).length > 0 && (
