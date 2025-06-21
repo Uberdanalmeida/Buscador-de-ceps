@@ -71,11 +71,6 @@
   font-weight: bolder;
 }
 
-.icon {
-  border: none;
-  background-color: transparent;
-}
-
 @keyframes cidades {
   from {
     transform: rotateX(90deg);
