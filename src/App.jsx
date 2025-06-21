@@ -31,10 +31,10 @@ function App() {
         <h1 className='titulo'>Buscador de CEP</h1>
 
         <div className='input'>
-          <input type="text" name="" id="" placeholder='DIGITE UM CEP' value={count}
+          <input type="text" name="" id="" placeholder='Digite um CEP' value={count}
           onChange={(e) => setCount(e.target.value)} />
 
-          <button className='botao' onClick={teste}><BsSearch size={25} className='icon'/></button>
+          <button className='botao' onClick={teste}><BsSearch size={20} className='icon'/></button>
         </div>
 
         {Object.keys(cep).length > 0 && (
